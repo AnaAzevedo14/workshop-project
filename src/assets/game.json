@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "game": {
+    "name": "God Of War",
+    "releaseDate": "April 20, 2018",
+    "coverImage": "assets/godOfWar.jpg",
+    "consoles": [
+      {"consoleName": "PS4", "gamePrice": 0.99 }
+    ]
+  }
+}
