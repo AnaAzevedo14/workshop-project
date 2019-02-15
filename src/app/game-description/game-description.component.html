@@ -1,12 +1,33 @@
-<div class="row description">
-  <div class="col-sm-2" >
-    <img src="{{gameInfo?.game.coverImage}}" alt="product image"/>
-  </div>
-  <div class="col-sm-6">
+<div class="row">
+  <div class="row description">
+    <div class="col-sm-2" >
+      <img src="{{gameInfo?.game.coverImage}}" alt="product image"/>
+    </div>
+    <div class="col-sm-6">
 
-    <p class="game-name">{{gameInfo?.game.name}}</p>
+      <p class="game-name">{{gameInfo?.game.name}}</p>
 
-    <p class="desc">{{gameInfo?.game.description}}</p>
-    <p class="game-release-date">{{gameInfo?.game.releaseDate}}</p>
+      <p class="desc">{{gameInfo?.game.description}}</p>
+      <p class="game-release-date">{{gameInfo?.game.releaseDate}}</p>
+    </div>
   </div>
-</div>
+</div> 
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="row available">
+          <span class="available">Available on: </span>
+        <ul>
+          <li *ngFor="let game of gameInfo?.game.consoles">
+            <div class="col-sm-5">
+              
+              <span class="console">{{game.consoleName}}</span>
+            </div>
+            <div class="col-sm-3 text-right">
+              <span class="price-and-buy" *ngIf="!hidePrice"><button>{{game.gamePrice}}</button></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>

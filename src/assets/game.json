@@ -1,10 +1,10 @@
 {
   "id": 1,
   "game": {
-    "name": "God Of War",
-    "releaseDate": "April 20, 2018",
-    "coverImage": "assets/godOfWar.jpg",
-    "description": "God of War is an action-adventure video game developed by Santa Monica Studio and published by Sony Interactive Entertainment (SIE). Released on April 20, 2018, for the PlayStation 4 (PS4) console, it is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III. Unlike previous games, which were loosely based on Greek mythology, this installment is loosely based on Norse mythology, with the majority of it set in ancient Norway in the realm of Midgard.",
+    "name": "Red Dead Redemption 2",
+    "releaseDate": "October 26, 2018",
+    "coverImage": "assets/redDeadRedemption.png",
+    "description": "The third entry in the Red Dead series, it is a prequel to the 2010 game Red Dead Redemption. Set in 1899 in a fictionalized version of the Western United States, the story centers on outlaw Arthur Morgan, a member of the Van der Linde gang dealing with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other enemies.",
     "consoles": [
       {"consoleName": "PS4", "gamePrice": 0.99 },
       {"consoleName": "Xbox One", "gamePrice": 0.99 }

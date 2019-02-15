@@ -10,6 +10,8 @@ export class GameDescriptionComponent implements OnInit {
 
   public gameInfo;
 
+  public hidePrice: boolean = true;
+
   constructor(private _gameService: GameService) { }
 
   ngOnInit() {
