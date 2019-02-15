@@ -1,11 +1,13 @@
 {
   "id": 1,
   "game": {
-    "name": "God Of War",
-    "releaseDate": "April 20, 2018",
-    "coverImage": "assets/godOfWar.jpg",
+    "name": "Red Dead Redemption 2",
+    "releaseDate": "October 26, 2018",
+    "coverImage": "assets/redDeadRedemption.png",
     "consoles": [
-      {"consoleName": "PS4", "gamePrice": 0.99 }
+      {"consoleName": "PS4", "gamePrice": 0.99 },
+      {"consoleName": "Xbox One", "gamePrice": 0.99 }
+      
     ]
   }
 }
