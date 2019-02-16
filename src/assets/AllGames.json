@@ -1,10 +1,12 @@
 [
     {
       "id": 1,
-      "gameName": "Red Dead Redemption 2"
+      "gameName": "Red Dead Redemption 2",
+      "developer": "Rockstar Games"
     },
     {
       "id": 2,
-      "artistName": "God Of War"
+      "gameName": "God Of War",
+      "developer": "Sony Interactive Entertainment"
     }
   ]
