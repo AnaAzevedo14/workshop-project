@@ -4,9 +4,10 @@
     "name": "Red Dead Redemption 2",
     "releaseDate": "October 26, 2018",
     "coverImage": "assets/redDeadRedemption.png",
+    "description": "Set in 1899 in a fictionalized version of the Western United States, the story centers on outlaw Arthur Morgan, a member of the Van der Linde gang dealing with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other enemies.",
     "consoles": [
       {"consoleName": "PS4", "gamePrice": 0.99 },
-      {"consoleName": "Xbox One", "gamePrice": 0.99 }
+      {"consoleName": "Xbox One", "gamePrice": 3.99 }
       
     ]
   }
